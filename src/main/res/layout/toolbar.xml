@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#757575"
+	android:id="@+id/tb">
+
+	<ImageView
+		android:layout_width="35dp"
+		android:layout_height="34dp"
+		android:text="SCDownloader"
+		android:src="@drawable/icon"
+		android:layout_gravity="left"
+		android:id="@+id/toolbar_title"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="SCDownloader"
+		android:textSize="18dp"
+		android:textColor="#FFFFFF"
+		android:layout_marginLeft="26dp"
+	/>
+
+</android.support.v7.widget.Toolbar>

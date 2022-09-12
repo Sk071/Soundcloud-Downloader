@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top"
+	android:background="#464444"
+	android:layout_gravity="bottom">
+
+	<include
+		android:id="@+id/tb"
+		layout="@layout/toolbar">
+
+	</include>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/et"
+		android:layout_marginTop="115dp"
+		android:hint="Paste SoundCloud Link Here..."
+		android:layout_marginLeft="3dp"/>
+
+	<Button
+		android:layout_height="40dp"
+		android:text="Search"
+		android:id="@+id/b"
+		android:layout_width="90dp"
+		android:layout_below="@id/et"
+		android:layout_marginTop="48dp"
+		android:gravity="center"
+		android:layout_centerHorizontal="true"
+		android:background="#DA4C11"
+		android:textColor="#E5DCDB"
+		android:textStyle="italic|normal"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="© Developed by Shubham Kumbhar"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/b"
+		android:textColor="#C74D5F"
+		android:layout_gravity="bottom"
+		android:layout_alignParentBottom="true"
+		android:textSize="18sp"
+		android:layout_marginTop="220dp"
+		android:layout_centerHorizontal="true"
+		android:padding="1dp"
+		android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>
+
